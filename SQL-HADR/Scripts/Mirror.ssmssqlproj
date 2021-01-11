@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Mirror">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NODEONE:SQLDOM\Administrator">
+          <Created>2020-12-02T19:35:59.2108158+01:00</Created>
+          <Type>SQL</Type>
+          <Server>NODEONE</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0020_Spiegelung_Endpunkte einrichten.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0020_Spiegelung_Endpunkte einrichten.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0021_Mirror aktivieren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0021_Mirror aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0022_Mirror_Failover.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0022_Mirror_Failover.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0023_TSQL_Mirror_Einrichten der Endpunkte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0023_TSQL_Mirror_Einrichten der Endpunkte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0024_DMV_Rollen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0024_DMV_Rollen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0025_DMV_Mirror_Spiegel überprüfen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0025_DMV_Mirror_Spiegel überprüfen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0040_Diagnostic Log.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0040_Diagnostic Log.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0041_Diagnostic Lesen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0041_Diagnostic Lesen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Cluster Healthcheck.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Cluster Healthcheck.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
